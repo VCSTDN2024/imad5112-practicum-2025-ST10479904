@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".DetailView">
+
+    <ListView
+        android:id="@+id/lvSongEntries"
+        android:layout_width="wrap_content"
+        android:layout_height="260dp" />
+
+    <TextView
+        android:id="@+id/tvAvgRating"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    
+    <Button
+        android:id="@+id/btnList"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="List of Songs"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnAvgRating"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Avg Ratings"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnReturn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Return to Menu" />
+</LinearLayout>

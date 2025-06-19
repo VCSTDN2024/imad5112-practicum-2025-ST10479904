@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+   <EditText
+       android:id="@+id/etSong"
+       android:layout_width="300dp"
+       android:layout_height="wrap_content"
+       android:hint="Enter song name"
+       android:inputType="text"
+       tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/etArtist"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter artist name"
+        android:inputType="text"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/etRating"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Rating(1-5)"
+        android:inputType="number"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/etComments"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Comment"
+        android:inputType="text"
+        tools:ignore="HardcodedText" />
+
+
+    <Button
+        android:id="@+id/btnPlaylist"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Add to Playlist"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnDetail"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Detail"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Exit"
+        tools:ignore="HardcodedText" />
+</LinearLayout>
